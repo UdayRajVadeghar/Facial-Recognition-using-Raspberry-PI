@@ -33,3 +33,5 @@ while True:
         break
 
 cv2.destroyAllWindows()
+
+#end of this code , this is how the .
