@@ -19,6 +19,7 @@ while True:
     
         k = cv2.waitKey(1)
         rawCapture.truncate(0)
+        #this is the raw capture
         if k%256 == 27: # ESC pressed
             break
         elif k%256 == 32:
