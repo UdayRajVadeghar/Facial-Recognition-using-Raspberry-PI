@@ -14,7 +14,7 @@ img_counter = 0
 while True:
     for frame in cam.capture_continuous(rawCapture, format="bgr", use_video_port=True):
         image = frame.array
-        cv2.imshow("Press Space to take a photo", image)
+        cv2.imshow("Press Space to take a photo", image) #
         rawCapture.truncate(0)
     
         k = cv2.waitKey(1)
