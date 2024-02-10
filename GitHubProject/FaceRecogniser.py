@@ -5,7 +5,7 @@ from picamera.array import PiRGBArray
 name = 'Caroline' #replace with your name
 
 cam = PiCamera()
-cam.resolution = (512, 304)
+cam.resolution = (512 , 304)
 cam.framerate = 10
 rawCapture = PiRGBArray(cam, size=(512, 304))
     
