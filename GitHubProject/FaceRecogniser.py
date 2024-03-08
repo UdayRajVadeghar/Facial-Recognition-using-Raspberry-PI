@@ -2,8 +2,7 @@ import cv2
 from picamera import PiCamera
 from picamera.array import PiRGBArray
 
-name = 'Caroline' #replace with your name
-
+name = 'Caroline' #replace with your name  
 cam = PiCamera()
 cam.resolution = (512 , 304)
 cam.framerate = 10
